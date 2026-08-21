@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ HeLLM — Next-Gen AI Exam & Form Solver Suite
+# HeLLM — Next-Gen AI Exam & Form Solver Suite
 
 **High-Performance Native C++ DirectX 11 Core • Stealth Chromium Extension • Serverless Cloud AI Backend**
 
@@ -19,7 +19,7 @@
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 - [Overview & Architecture](#-overview--architecture)
 - [Key Features](#-key-features)
   - [1. Pure Native C++ Desktop Application](#1-pure-native-c-desktop-application)
@@ -37,7 +37,7 @@
 
 ---
 
-## 🏗️ Overview & Architecture
+## Overview & Architecture
 
 HeLLM employs a **3-tier decoupled architecture** designed to protect API credentials, ensure sub-150ms response times, and isolate client applications:
 
@@ -69,7 +69,7 @@ HeLLM employs a **3-tier decoupled architecture** designed to protect API creden
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ### 1. Pure Native C++ Desktop Application
 * **Zero-Runtime Overhead**: Built in pure C++20 with DirectX 11 and Dear ImGui for instantaneous launch times and minimal RAM usage (< 30 MB).
@@ -96,7 +96,7 @@ HeLLM employs a **3-tier decoupled architecture** designed to protect API creden
 
 ---
 
-## 🎯 Supported Platforms
+## Supported Platforms
 
 | Platform | Extraction Mode | Auto-Fill / Assist Support |
 | :--- | :---: | :---: |
@@ -110,17 +110,7 @@ HeLLM employs a **3-tier decoupled architecture** designed to protect API creden
 
 ---
 
-## 🛡️ Security & Anti-Abuse
-
-1. **HWID Fingerprint Locking**: Hardware identity locked via Motherboard GUID and CPU cryptographic hash.
-2. **Ephemeral Rolling Token**: Dynamic session token required in `Authorization: Bearer` headers for IPC requests.
-3. **Sliding-Window Rate Limiter**: Maximum 40 requests/minute per client to prevent spamming and DDoS.
-4. **Anti-Debugging**: Native checks (`IsDebuggerPresent` & `CheckRemoteDebuggerPresent`) preventing memory tampering.
-5. **Mutual Heartbeat**: Automatic session termination and cache wipe if the desktop core is closed.
-
----
-
-## ⌨️ Keyboard Shortcuts & Hotkeys
+## Keyboard Shortcuts & Hotkeys
 
 | Shortcut | Action | Scope |
 | :--- | :--- | :--- |
@@ -130,7 +120,7 @@ HeLLM employs a **3-tier decoupled architecture** designed to protect API creden
 
 ---
 
-## 🚀 Getting Started & Installation
+## Getting Started & Installation
 
 ### A. Running Desktop App
 1. Download `HeLLM.exe` from the latest release.
@@ -163,11 +153,11 @@ HeLLM employs a **3-tier decoupled architecture** designed to protect API creden
 
 ---
 
-## ⚖️ Disclaimer
+## Disclaimer
 
 > [!WARNING]
 > This software is intended strictly for **educational, academic research, and accessibility assistance purposes**. The developers do not encourage or condone academic dishonesty or misuse on proctored examinations. Use responsibly in accordance with your institution's guidelines and terms of service.
 
 <div align="center">
-  <sub>Built with ❤️ by Infernostudios. Powered by Google Antigravity & AI LLM Engines.</sub>
+  <sub>Built with ❤️ by Infernostudios.</sub>
 </div>
