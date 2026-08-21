@@ -134,23 +134,6 @@ HeLLM employs a **3-tier decoupled architecture** designed to protect API creden
 3. Enable **Developer mode** in the top-right corner.
 4. Click **Load unpacked** and select the `extension/` directory.
 
-### C. Deploying Vercel Backend
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/HeLLM.git
-   cd HeLLM/vercel-backend
-   ```
-2. Configure Environment Variables in Vercel:
-   ```env
-   AIVENE_API_KEY="your-api-key"
-   JWT_SECRET="your-custom-jwt-secret"
-   ```
-3. Deploy via Vercel CLI or 1-Click Deploy:
-   ```bash
-   npm install -g vercel
-   vercel --prod
-   ```
-
 ---
 
 ## Disclaimer
